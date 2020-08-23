@@ -1,7 +1,7 @@
 # PjFileExplorer
 <img src="https://i.ibb.co/wNLMrNh/Pj-File-Explorer-Black.png" alt="Pj-File-Explorer-Black" border="0">
 
-I created my own command-line explorer it was a small project, created it in 1 day
+I created my own command-line explorer it is a small project, created it in 1 day
 
 ## Getting Started
 
