@@ -36,7 +36,7 @@ Open the file downloaded, at the bottom click Add Python {Version} to PATH, make
 ```
 Installing PyFiglet 0.7
 ```
-After installing press Windows key + R and type "cmd" and press enter. Then a console window will open, type exactly this command: pip install pyfiglet==0.7 and the installer will run.
+After installing press Windows key + R and type "cmd" and press enter. Then a console window will open, type exactly this command: pip install pyfiglet==0.7 and this command: pip install update-check and the installer will run.
 ```
 Running the project
 ```
@@ -46,6 +46,7 @@ Go to the project folder/src/ and in the top bar (where the directory is shown) 
 
 ## Built With
 
+* [update-check](https://pypi.org/project/update-check/) The update checker
 * [PyFiglet](https://pypi.org/project/pyfiglet/0.7/) - The ASCII text at the top.
 * [OS](https://docs.python.org/3/library/os.html) - All the tools for getting the files in a path etc
 
