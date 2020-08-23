@@ -494,7 +494,7 @@ if __name__ == "__main__":
     print(bcolors.OKGREEN)
     print(f.renderText('PjFileExplorer'))
     print(bcolors.ENDC)
-    print(bcolors.OKBLUE + "Commands:\nopen 'Opens a supported file.'\n")
+    print(bcolors.OKBLUE + "Commands:\nopen_file 'Opens a supported file.'\n")
     display = displayDirs()
     display.print("C:\\")
     while True:
