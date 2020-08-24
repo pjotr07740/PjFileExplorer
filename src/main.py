@@ -5,9 +5,10 @@ from update_check import isUpToDate, update
 
 
 dir_path = os.path.dirname(os.path.realpath("main.py"))
-
-if isUpToDate(f"{dir_path}/main.py", "https://raw.githubusercontent.com/pjotr07740/PjFileExplorer/master/src/main.py") == False:
-   update(f"{dir_path}/main.py", "https://raw.githubusercontent.com/pjotr07740/PjFileExplorer/master/src/main.py")
+enabled = False
+if enabled:
+    if isUpToDate(f"{dir_path}/main.py", "https://raw.githubusercontent.com/pjotr07740/PjFileExplorer/master/src/main.py") == False:
+       update(f"{dir_path}/main.py", "https://raw.githubusercontent.com/pjotr07740/PjFileExplorer/master/src/main.py")
 
 f = Figlet(font='slant')
 
@@ -27,7 +28,7 @@ class ConsoleColors:
         self.WARNING = ''
         self.FAIL = ''
         self.ENDC = ''
-###############
+
 
 class DisplayDirs:
 
