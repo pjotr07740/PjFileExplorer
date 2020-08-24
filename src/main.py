@@ -1,7 +1,7 @@
 import os
 import shutil
 from pyfiglet import Figlet
-from update_check import isUpToDate
+from update_check import isUpToDate, update
 
 
 dir_path = os.path.dirname(os.path.realpath("main.py"))
@@ -27,7 +27,7 @@ class ConsoleColors:
         self.WARNING = ''
         self.FAIL = ''
         self.ENDC = ''
-
+###############
 
 class DisplayDirs:
 
